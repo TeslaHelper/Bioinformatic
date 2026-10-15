@@ -1,0 +1,15 @@
+Equation_No,Node,Category,Synchronous_Update_Rule,Biological_State_Representation
+-,PBM,Exogenous Input,"PBM(t) = 1 for t in {0,1,2}; 0 for t >= 3",Supra-threshold transcranial NIR optical stimulus (808 nm)
+(6),COX4I1,Mitochondrial Photoreceptor,COX4I1(t+1) = PBM(t),Cytochrome c oxidase (Complex IV) photonic activation
+(7),ROS,Redox Second Messenger,ROS(t+1) = COX4I1(t),Transient mitochondrial reactive oxygen species burst
+(8),HIF1A,Redox-Sensitive TF,HIF1A(t+1) = ROS(t),Post-translational redox-stabilized HIF-1alpha activity
+(9),IL6,Autocrine/Paracrine Cytokine,IL6(t+1) = HIF1A(t),Interleukin-6 receptor engagement at mLEC membrane
+(10),TNF,Autocrine/Paracrine Cytokine,TNF(t+1) = HIF1A(t),Parallel TNF receptor engagement at mLEC membrane
+(11),STAT3,Convergent Signaling Hub,STAT3(t+1) = IL6(t) OR TNF(t),Phosphorylated STAT3 (p-STAT3) signaling activation
+(12),ACTB,Cytoskeletal Effector,ACTB(t+1) = STAT3(t) OR M(t),Cortical F-actin polymerization and stress-fiber remodeling
+(13),CTNNB1,Junctional Effector,CTNNB1(t+1) = ACTB(t),Adherens-junction beta-catenin / VE-cadherin button organization
+(14),Permeability,Barrier Phenotype,Perm(t+1) = CTNNB1(t),Interstitial fluid influx across discontinuous button junctions
+(15),ShearStress,Luminal Flow Surrogate,Shear(t+1) = Perm(t),Intraluminal lymphatic flow-induced shear stress
+(16),KLF2,Mechanosensitive TF,KLF2(t+1) = Shear(t),Flow-activated KLF2 transcriptional/signaling state
+(17),Drainage,Functional Output,Drain(t+1) = Perm(t) AND Shear(t),Net meningeal lymphatic macromolecular clearance
+(18),M (auxiliary),Phenomenological Memory,"M(t+1) = M(t) OR ACTB(t), M(0) = 0",Auxiliary cytoskeletal state memory (tested vs. 1-step & decaying memory)

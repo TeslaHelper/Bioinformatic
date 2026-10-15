@@ -1,0 +1,16 @@
+Gene,log2FC,pvalue,padj,Hub
+Rttn,4.1,0.0001,0.008,False
+Tbc1d4,3.8,0.0002,0.012,False
+Gprc5b,-3.9,0.0003,0.018,False
+Mrps10,3.5,0.0005,0.025,False
+Actb,0.452,0.62,1,True
+Il6,-3.82,0.18,0.59,True
+Ctnnb1,0.291,0.71,1,True
+Hif1a,-0.327,0.78,1,True
+Stat3,-0.385,0.81,1,True
+Gapdh,0.117,0.88,1,True
+Kdr,0.01,0.96,1,True
+Pten,1.212,0.45,1,True
+Hsp90aa1,0.035,0.93,1,True
+Tgfb1,-0.02,0.98,1,True
+Trp53,-0.408,0.74,1,True

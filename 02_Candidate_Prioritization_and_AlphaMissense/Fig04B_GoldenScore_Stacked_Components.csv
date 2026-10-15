@@ -1,0 +1,16 @@
+Gene,Final_Score,AlphaMissense_Score,Golden_Score,Origin,Rank,Network_Component_70pct,AM_Component_30pct,Category
+ACTB,2131.48138305356,0.9165,92.9017,Linker (New Discovery),1,65.4067,27.495,Evolutionary vital
+CTNNB1,2041.624033113946,0.757,85.3593,Linker (New Discovery),2,62.6493,22.71,Evolutionary vital
+IL6,2281.168170334932,0.4447,83.341,Sheet 2,3,70,13.341,Network master
+TGFB1,1900.828193771769,0.591,76.0589,Linker (New Discovery),5,58.3289,17.73,Network master
+GAPDH,1603.017551914715,0.7955,73.0552,Linker (New Discovery),6,49.1902,23.865,Evolutionary vital
+TNF,2072.424064909725,0.4821,78.0575,Linker (New Discovery),4,63.5945,14.463,Network master
+TP53,1561.733767770898,0.5267,63.7244,Linker (New Discovery),8,47.9234,15.801,Network master
+HIF1A,1561.206447355831,0.5094,63.1892,Sheet 2,9,47.9072,15.282,Network master
+KDR,1380.74997788807,0.4939,57.1867,Sheet 2,10,42.3697,14.817,Network master
+PTEN,1471.335401122724,0.7429,67.4364,Linker (New Discovery),7,45.1494,22.287,Network master
+HSP90AA1,1021.022956656963,0.7692,54.4071,Linker (New Discovery),11,31.3311,23.076,Evolutionary vital
+STAT3,1040.616718796943,0.7193,53.5114,Linker (New Discovery),12,31.9324,21.579,Network master
+INS,1081.778525432842,0.5172,48.7115,Linker (New Discovery),15,33.1955,15.516,Network master
+SRC,901.6913502078754,0.7376,49.7973,Sheet 2,14,27.6693,22.128,Network master
+ALB,1102.35204640788,0.5745,51.0618,Sheet 2,13,33.8268,17.235,Network master

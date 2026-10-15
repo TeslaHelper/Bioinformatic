@@ -1,0 +1,5 @@
+Analysis,Background,Terms_Tested,Significant_padj<0.05
+GO (BP),Whole proteome (default),~19000,1732
+GO (BP),205-gene bridge network (restricted),2273,374
+KEGG,Whole proteome (default),~229,119
+KEGG,205-gene restricted (legacy annotation),77,4

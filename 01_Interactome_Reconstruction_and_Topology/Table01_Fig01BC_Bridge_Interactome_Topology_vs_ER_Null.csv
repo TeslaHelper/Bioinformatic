@@ -1,0 +1,9 @@
+Metric,Observed,Random_ER
+Nodes,205,205
+Edges,4074,4074 (matched by construction)
+Average_Degree,39.746,39.746 (matched by construction)
+Density,0.19484,0.19484 (matched by construction)
+Clustering_Coefficient,0.6583,"0.1948 +/- 0.0016 (mean +/- SD, n=1000 realizations)"
+Avg_Shortest_Path,2.0445,"1.8055 +/- 0.0001 (mean +/- SD, n=1000 realizations)"
+Diameter,6,3.0 (modal value across realizations)
+Small_World_Sigma,2.985,1.000

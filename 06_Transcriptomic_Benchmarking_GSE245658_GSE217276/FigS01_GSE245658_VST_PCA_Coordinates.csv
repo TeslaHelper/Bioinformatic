@@ -1,0 +1,11 @@
+Sample,Condition,PC1,PC2,PC1_pct_variance,PC2_pct_variance
+WT_1,WT,-11.2,-46.3,22,18
+WT_2,WT,76.4,-4.1,22,18
+WT_3,WT,-9.8,5.3,22,18
+WT_4,WT,-8.9,2.1,22,18
+FAD_1,FAD,-7.3,0.8,22,18
+FAD_2,FAD,-4.1,-2.5,22,18
+FAD_3,FAD,-6.8,2.1,22,18
+FAD_L_1,FAD_L,-9.1,9.2,22,18
+FAD_L_2,FAD_L,-8.2,2.9,22,18
+FAD_L_3,FAD_L,-11,30.5,22,18

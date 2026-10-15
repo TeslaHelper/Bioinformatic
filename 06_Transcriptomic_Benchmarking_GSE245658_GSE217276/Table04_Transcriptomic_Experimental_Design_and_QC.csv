@@ -1,0 +1,8 @@
+Design_Parameter,GSE245658_Chronic_Transcranial_PBM,GSE217276_Positive_Inflammatory_Benchmark
+Biological_Source_and_Tissue,"FACS-sorted dural mLECs (Mus musculus, C57BL/6J & 5xFAD)","FACS-sorted dural mLECs (Mus musculus, young C57BL/6J WT)"
+Groups_and_Sample_Size,"3 groups (N=10): WT (n=4), untreated 5xFAD (n=3), 5xFAD + 808 nm light (FAD_L, n=3)","2 groups (N=6): AAV-Vehicle (VEH, n=3), AAV-IFNg (IFN, n=3)"
+Exposure_Protocol,Chronic transcranial 808 nm NIR light (4 weeks daily) vs. untreated 5xFAD,Intracranial AAV-IFNg cytokine challenge vs. AAV-vehicle control
+PreFiltering_and_Gene_Universe,"Rounded RSEM counts; rowSum(counts) >= 10 across 10 samples (8,546 genes)","Raw integer counts (deduplicated); rowSum(counts) >= 10 across 6 samples (15,418 genes)"
+DESeq2_Model_and_Reference,~ condition (3-level); reference = untreated 5xFAD (primary contrast: FAD_L vs. FAD),~ condition (2-level); reference = AAV-Vehicle (contrast: IFN vs. VEH)
+PCA_Dispersion_Handling_FigS1,"3 high-dispersion libraries (WT_1, WT_2, FAD_L_3) retained to preserve n=3; Cook's distance & shrinkage applied",All 6 replicates retained; tight intra-group clustering
+Shrinkage_and_FDR_Control,DESeq2 v1.42 apeglm/normal log2FC shrinkage; BH-adjusted P (padj) at alpha = 0.05,DESeq2 empirical-Bayes log2FC shrinkage; BH-adjusted P (padj) at alpha = 0.05

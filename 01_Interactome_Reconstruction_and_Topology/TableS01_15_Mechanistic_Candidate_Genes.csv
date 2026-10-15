@@ -1,0 +1,15 @@
+S1,Current mechanistic candidate set,15 rows
+S2,Full whole-genome-background GO enrichment,"1,857 terms"
+S3,Key restricted-background enrichment results,3 rows
+S3b,Full whole-genome-background KEGG enrichment,119 pathways
+S4,Genome-wide GO multifunctionality index,"18,870 genes"
+S5,Top 20 genes by full-network topology,20 rows
+S6,Integrated Golden Score ranking,20 rows
+S7,In silico node-deletion analysis,19 rows
+S8,"Full-transcriptome DESeq2 results, GSE245658","11,804 genes"
+S9,Secondary ODE calibration,5 parameters
+S10,Boolean network architecture and transition logic,14 nodes
+S11,Boolean trajectories and hysteresis simulations,70 rows
+S12,Primary ODE trajectory and k_dep sensitivity,"1,441 + 80 rows"
+S13,Full 205-node network score table,205 nodes
+S14,Full 205-node edge list,"4,074 edges"

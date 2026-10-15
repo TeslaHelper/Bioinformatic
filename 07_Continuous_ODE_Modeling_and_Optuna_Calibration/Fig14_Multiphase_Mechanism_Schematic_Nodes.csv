@@ -1,0 +1,15 @@
+Phase,Node,Role,Chromophore
+1,NIR photon,Input,808nm wavelength
+1,COX complex,Photoreceptor,CuA/CuB/heme a3 (MT-CO1/MT-CO2)
+1,ROS,Second messenger,Mitochondrial superoxide
+1,HIF1A,Transcription factor,Hypoxia-responsive TF
+1,IL6,Cytokine,Validated inducible in mLEC (GSE217276)
+1,TNF,Cytokine,Paracrine only; not expressed in mLEC
+2,IL6 signalling,JAK-STAT3,Downstream of IL6
+2,ACTB,Structural executor,Post-translational remodelling; transcript unchanged
+2,CTNNB1,Junction regulator,Post-translational; transcript unchanged
+2,Permeability,Outcome,Transendothelial fluid transport
+3,CSF flow/ShearStress,Mechanosensory input,Physiological shear stress
+3,KLF2,Mechanosensitive TF,Shear-responsive; sole mechanosensitive TF node in the Boolean model (Sec. 2.10). KLF4 plays an overlapping role in the broader literature but is not separately modeled (see Discussion).
+3,ACTB persistence,Memory element,"k_dep=0.050 hr-1 (t1/2=826 min, Optuna)"
+3,Sustained drainage,Therapeutic outcome,"~27 hr (model-estimated; see Table 5 / Results 3.11); >=12 hr (conservative, literature lower bound; see also Supplementary Table S9)"

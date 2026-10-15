@@ -1,0 +1,12 @@
+Parameter_or_Output,Symbol_or_Condition,Primary_Regime_Extended_Remodeling,Secondary_Regime_Physiological_Turnover,Units,Mechanistic_and_Operational_Role
+Actin depolymerization rate,k_dep,0.0504 (t1/2 ~ 825 min),0.3726 (t1/2 ~ 112 min),h^-1,Linear relaxation rate of remodeled cortical actin state A(t)
+Cytokine signaling decay rate,k_sig,0.3500 (t1/2 ~ 119 min),0.1055 (t1/2 ~ 394 min),h^-1,Clearance rate of upstream cytokine/STAT3 signaling drive S(t)
+Hill half-activation constant,theta,0.158,0.4388,dimensionless,Signaling intensity S(t) required for half-maximal actin remodeling
+Hill cooperativity coefficient,n,1.39,3.837,dimensionless,Ultrasensitivity / steepness of sigmoidal actin-activation response
+Signaling production rate,k_prod,2.0 (fixed a priori),2.0 (fixed a priori),h^-1,Stimulus-driven S(t) generation during rectangular pulse PBM(t)=1 (0-3 h)
+Actin activation rate constant,k_A,1.0 (fixed a priori),1.0 (fixed a priori),h^-1,Explicit rate constant scaling Hill activation in Equation (20)
+Drainage coupling constant,k_act,1.0 (fixed a priori),1.0 (fixed a priori),h^-1,Explicit rate constant coupling A(t) to drainage D(t) in Equation (21)
+Drainage decay rate constant,k_drain,0.30 (fixed a priori),0.30 (fixed a priori),h^-1,Relaxation rate of dimensionless drainage enhancement index D(t)
+Active persistence (A > 0.50),t_active (post-pulse),27.1 h (25.0 h post-pulse),11.3-12.0 h (9.0 h post-pulse),h,Contiguous duration with unit-bounded A(t) > 0.50 across regimes
+Threshold sensitivity (A > 0.75 / 0.25),Primary trajectory,17.9 h / 41.3 h,6.8 h / 16.4 h,h,Persistence span evaluated at stringent (0.75) and permissive (0.25) cutoffs
+Peak drainage index D_max,t_peak = 13.75 h,3.03 (D > 0.5 for 54.0 h),1.84 (unnormalized index),dimensionless,Scales with k_act/k_drain = 3.33; excluded from unit-bounded 0.5 cutoff
