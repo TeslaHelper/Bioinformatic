@@ -17,7 +17,6 @@ Every sheet from the master workbooks and supplementary documents has been clean
 ```text
 Bioinformatic/
 ├── README.md                                                     # Master documentation & manuscript crosswalk
-├── DATA_CATALOG_INDEX.csv                                        # Machine-readable catalog of all 38 files
 ├── 01_Interactome_Reconstruction_and_Topology/                   # Sections 2.1–2.4, 3.1–3.2 | Figs 1–3 | Table 1 | Tables S1, S5, S13, S14
 ├── 02_Candidate_Prioritization_and_AlphaMissense/                # Sections 2.5–2.6, 3.3 | Figs 3–4 | Table 2 | Tables S5–S6
 ├── 03_Functional_Enrichment_and_Multifunctionality/              # Sections 2.7, 2.9, 3.4–3.6 | Figs 5–7 | Tables S2–S4
@@ -26,7 +25,6 @@ Bioinformatic/
 ├── 06_Transcriptomic_Benchmarking_GSE245658_GSE217276/           # Sections 2.11, 3.9 | Figs 11–12 | Tables 4–5 | Table S8 | Figs S1–S3
 ├── 07_Continuous_ODE_Modeling_and_Optuna_Calibration/            # Sections 2.12, 3.10–3.11 | Figs 13–14 | Table 6 | Tables S9, S12
 ├── 08_Executable_Analysis_Scripts/                               # R (BoolNet, DESeq2, clusterProfiler) & Python (Optuna ODE) scripts
-└── 09_Master_Workbooks_and_Manuscript_Docs/                      # Multi-sheet Excel master workbooks & Word/PDF manuscript files
 ```
 
 ---
@@ -79,13 +77,6 @@ Bioinformatic/
 | `08_Executable_Analysis_Scripts` | [`deseq2_verification_GSE245658.R`](08_Executable_Analysis_Scripts/deseq2_verification_GSE245658.R) | **Tables 4–5 / Figure 11A / Section 2.11** | 303 rows × 1 cols | DESeq2 v1.42 reanalysis script for GSE245658 (5xFAD + 808 nm NIR light vs. untreated 5xFAD) |
 | `08_Executable_Analysis_Scripts` | [`validate_hub_genes_217276.py`](08_Executable_Analysis_Scripts/validate_hub_genes_217276.py) | **Tables 4–5 / Figure 11B & 12 / Section 2.11** | 86 rows × 1 cols | Differential expression benchmark script for GSE217276 (intracranial AAV-IFNg vs. AAV-vehicle) |
 | `08_Executable_Analysis_Scripts` | [`universe_correction.R`](08_Executable_Analysis_Scripts/universe_correction.R) | **Figure 7 / Supplementary Table S3 / Section 2.7** | 132 rows × 1 cols | Restricted 205-node reference universe over-representation and rank-based GSEA script |
-| `09_Master_Workbooks_and_Manuscript_Docs` | [`PBM_MLV_Main_Figures_and_Tables_Master.xlsx`](09_Master_Workbooks_and_Manuscript_Docs/PBM_MLV_Main_Figures_and_Tables_Master.xlsx) | **Figures 1–14 & Tables 1–6 Master Workbook** | Document / Workbook | Multi-sheet Excel master workbook for all main-text figures and tables |
-| `09_Master_Workbooks_and_Manuscript_Docs` | [`PBM_MLV_Supplementary_Data_Master.xlsx`](09_Master_Workbooks_and_Manuscript_Docs/PBM_MLV_Supplementary_Data_Master.xlsx) | **Supplementary Tables S2–S14 & Figures S1–S3 Master Workbook** | Document / Workbook | Multi-sheet Excel master workbook for all supplementary datasets |
-| `09_Master_Workbooks_and_Manuscript_Docs` | [`Supplementary_Material.docx`](09_Master_Workbooks_and_Manuscript_Docs/Supplementary_Material.docx) | **Supplementary Figures S1–S3 & Tables S1–S14** | Document / Workbook | Formatted Word document containing all supplementary figures and tables |
-| `09_Master_Workbooks_and_Manuscript_Docs` | [`Supplementary_Material_V1.pdf`](09_Master_Workbooks_and_Manuscript_Docs/Supplementary_Material_V1.pdf) | **Supplementary Material PDF** | Document / Workbook | Compiled PDF edition of the Supplementary Material |
-| `09_Master_Workbooks_and_Manuscript_Docs` | [`Main_Manuscript_Publication_Clean.docx`](09_Master_Workbooks_and_Manuscript_Docs/Main_Manuscript_Publication_Clean.docx) | **Main Manuscript (Clean Edition)** | Document / Workbook | Harmonized, publication-ready main manuscript in Word DOCX format |
-| `09_Master_Workbooks_and_Manuscript_Docs` | [`Main_Manuscript_Revised_Tracked.docx`](09_Master_Workbooks_and_Manuscript_Docs/Main_Manuscript_Revised_Tracked.docx) | **Main Manuscript (Tracked Changes Edition)** | Document / Workbook | Harmonized main manuscript showing all revisions highlighted in yellow and strikethrough |
-
 ---
 
 ## Reproducing the Computational Analyses
